@@ -20,8 +20,7 @@ body, .principal-name{
 
 .container{
   max-width: 1100px;
-  margin: 0% auto;   
-  
+  margin: 0% auto;  
 }
 
 .clearfix::after{
@@ -49,7 +48,6 @@ p, li{
 }
 
 .box{
-  width: 360px;
   height: 100px;
   color: white;
   background-color: #0f0e17;
@@ -59,6 +57,7 @@ p, li{
 
 .box ul{
   list-style: none;
+  display: block;
   padding-top: 15px; 
   margin-left: 110px;
 }
@@ -76,15 +75,20 @@ p, li{
 .box ul li a{
   color: #68a5b1;
   text-decoration: none;
+  font-weight: 300;
 }
 
 .box ul li a:hover{
   text-decoration: underline;
 }
 
+.row{
+  margin: 0 auto;  
+}
 .row .box {
   float: left;
-  width: calc(100% / 3); 
+  width: calc(25%);
+  margin: 40px 4%;  
 }
 
 
